@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f747adab1718945a0397e69e35a39c, type: 3}
+  m_Name: Waveconfig
+  m_EditorClassIdentifier: 
+  Movementspeed: 0
+  enemyPrefabs:
+  - enemyPrefab: {fileID: 2650974644405780534, guid: 6ca7bbd9a8a078c4586947c96644036a, type: 3}
+    count: 3
+  - enemyPrefab: {fileID: 9018031385848439560, guid: f2e4d66f452dda5459b6a7f6f7118d00, type: 3}
+    count: 4
+  - enemyPrefab: {fileID: 6458567998878813787, guid: 7a9d0406c55293843bda96052a57e331, type: 3}
+    count: 4
+  spwanDeley: 1
+  innerDelay: 2
